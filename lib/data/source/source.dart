@@ -46,5 +46,4 @@ class LocalDataSource implements DataSource {
     List<Song> songs = songList.map((song) => Song.fromJson(song)).toList();
     return songs;
   }
-
 }
